@@ -1,5 +1,5 @@
 # vim-regclip
-Copies a VIM register to the clipboard using OSC52 terminal sequences. Works over SSH.
+Copies a `vim` register to the clipboard using OSC52 terminal sequences. Works over SSH.
 Terminal must natively support OSC52 sequences (e.g. kitty, alacritty, iterm2, ...).
 Requires `printf` and `base64`.
 
